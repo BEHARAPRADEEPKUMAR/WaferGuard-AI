@@ -1,0 +1,27 @@
+# Web application
+streamlit>=1.35
+plotly>=5.20
+
+# Data processing
+pandas>=2.0
+numpy>=1.24
+scikit-learn==1.7.2
+
+# MLflow model loading and Databricks model download
+mlflow[databricks]==3.18.0
+
+# API and environment configuration
+requests>=2.31
+urllib3>=2.0
+python-dotenv>=1.0
+
+# PostgreSQL
+psycopg[binary]>=3.2
+
+# Excel and PDF reporting
+openpyxl>=3.1
+xlrd>=2.0
+reportlab>=4.0
+
+# Testing
+pytest>=8.0

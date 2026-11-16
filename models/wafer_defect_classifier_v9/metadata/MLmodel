@@ -1,0 +1,60 @@
+artifact_path: dbfs:/databricks/mlflow-tracking/2300877932535847/logged_models/m-0b52de8f0ef240bfad1ed5a69d6f5448/artifacts
+databricks_runtime: client.6
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.12.0
+model_id: m-0b52de8f0ef240bfad1ed5a69d6f5448
+model_size_bytes: 2436945
+model_uuid: m-0b52de8f0ef240bfad1ed5a69d6f5448
+prompts: null
+run_id: 4e5a6058972d4c36918a6fc0cb76d2fb
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "mean", "required": true}, {"type": "double",
+    "name": "stddev", "required": true}, {"type": "double", "name": "min_value", "required":
+    true}, {"type": "double", "name": "max_value", "required": true}, {"type": "double",
+    "name": "range_value", "required": true}, {"type": "double", "name": "rms", "required":
+    true}, {"type": "double", "name": "mean_abs", "required": true}, {"type": "double",
+    "name": "first_value", "required": true}, {"type": "double", "name": "last_value",
+    "required": true}, {"type": "double", "name": "end_to_end_change", "required":
+    true}, {"type": "double", "name": "segment_1_mean", "required": true}, {"type":
+    "double", "name": "segment_1_stddev", "required": true}, {"type": "double", "name":
+    "segment_1_range", "required": true}, {"type": "double", "name": "segment_2_mean",
+    "required": true}, {"type": "double", "name": "segment_2_stddev", "required":
+    true}, {"type": "double", "name": "segment_2_range", "required": true}, {"type":
+    "double", "name": "segment_3_mean", "required": true}, {"type": "double", "name":
+    "segment_3_stddev", "required": true}, {"type": "double", "name": "segment_3_range",
+    "required": true}, {"type": "double", "name": "segment_4_mean", "required": true},
+    {"type": "double", "name": "segment_4_stddev", "required": true}, {"type": "double",
+    "name": "segment_4_range", "required": true}, {"type": "double", "name": "segment_5_mean",
+    "required": true}, {"type": "double", "name": "segment_5_stddev", "required":
+    true}, {"type": "double", "name": "segment_5_range", "required": true}, {"type":
+    "double", "name": "segment_6_mean", "required": true}, {"type": "double", "name":
+    "segment_6_stddev", "required": true}, {"type": "double", "name": "segment_6_range",
+    "required": true}, {"type": "double", "name": "segment_7_mean", "required": true},
+    {"type": "double", "name": "segment_7_stddev", "required": true}, {"type": "double",
+    "name": "segment_7_range", "required": true}, {"type": "double", "name": "segment_8_mean",
+    "required": true}, {"type": "double", "name": "segment_8_stddev", "required":
+    true}, {"type": "double", "name": "segment_8_range", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-13 09:49:42.721621'
